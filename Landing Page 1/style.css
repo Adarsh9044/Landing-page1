@@ -1,0 +1,375 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#menu{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color:rgb(118, 118, 237);
+    border: none;
+
+}
+div{
+   /* border: 2px solid black;*/
+    padding: 5px;
+}
+.menu-item{
+color: rgb(224, 214, 214);
+ margin-top: 12px;
+ margin-left: 8px;
+ font-size: 16px;
+ border: none;
+}
+.menu-item:hover{
+    color:white;
+}
+
+.container{
+    background-color:rgb(118, 118, 237);
+}
+.round-btn{
+border: 1px solid white;
+border-radius: 15px;
+padding: 4px 20px;
+}
+.round-btn:hover{
+    color:black ;
+    background-color: white;
+}
+#logo{
+    margin-right: auto;
+     font-weight: bold;
+     font-size: 1.8rem;
+     color: black;
+     border: none;
+     background-color: azure;
+     border-radius: 30px;
+     
+}
+#logo:hover{
+    color:orange;
+}
+
+/*Home section*/
+#home{
+    background-color:rgb(118, 118, 237);
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.title-graphic img{
+    max-width: 550px;
+    border-radius: 12px;
+}
+.title{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.title h1{
+    font-size:40px;
+    font-weight:bold;
+    margin-top: 0px;
+}
+.title p{
+    font-size:20px;
+    font-style: italic;
+    margin-top: 0px;
+
+}
+.round-btn1{
+    border: 1px soild rgb(118, 118, 237);
+    background-color: rgb(118, 118, 237);
+
+    }
+    .btn1{
+        border-radius: 50px;
+        margin: 0 1px;
+        padding: 5px 10px;
+    }
+    .btn1:hover{
+      color:white;
+      background-color:  black;
+    }
+    .title-graphic1 img{
+        max-width: 4000px;
+        border-radius: 12px;
+    }
+    
+    /*marketing css*/
+    .outside-container{
+        background-color: rgb(118, 118, 237);
+       
+    }
+   .marketing , .cards{
+        max-width: 1200px;
+        margin: auto;
+     
+   }
+   .marketing h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    color:white;
+   }
+   .cards{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: azure;
+    border-radius: 30px;
+   }
+   .marketing-cart img{
+    max-width:  100%;
+    height: 150px;
+    margin-bottom: 20px;
+
+   }
+   .marketing-cart div{
+    text-align: center;
+   }
+   .marketing-cart{
+    max-width: 25%;
+   }
+   .title1{
+    text-align: center;
+    line-height: 1.5rem;
+   }
+   
+   /* animations */
+.animation-container{
+   max-width: 930px;
+   height: 300px;
+    margin: auto;
+    
+}
+.animated-logos{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+}
+.animated-logo{
+
+    width : 150px;
+    height: 150px;
+    
+}
+
+
+
+   /*pricing css*/
+.price-container{
+   
+    background-color:rgb(118, 118, 237); 
+   }
+#pricing{
+    max-width:1000px;
+    margin: 50px auto;
+
+}
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.price-title{
+    text-align: center;
+    font-size:180%;
+    font-weight: bold;
+    color: azure;
+}
+.price-card{
+    max-width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: azure;
+   
+}
+.pricinginfo{
+    text-align:center;
+    color: azure;
+}
+.features{
+    padding-left: 0;
+    line-height: 20px;
+    list-style: none;
+}
+
+.plan{
+    color: coral;
+    font-size: larger;
+    font-weight: 400;
+}
+.price{
+    color: black;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.actionbtn{
+    text-align: center;
+    background-color:azure; 
+    color: azure;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.actionbtn button{
+    border-radius: 10px;
+}
+
+
+/*   Testemonials */
+.testemonialscontainer{
+    background-color: rgb(118, 118, 237);
+}
+#testimonials{
+    max-width:1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    background-color:azure; 
+    border-radius: 25px;
+
+}
+.manimage img{
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+}
+.review{
+    font-size: large;
+    line-height: 1.5rem;
+    padding: 10px;
+}
+.name{
+    font-size: large; 
+    padding: 10px;
+}
+
+
+/*newsletter*/
+.outsidenews{
+    background-color:rgb(118, 118, 237) ;
+    
+}
+.subscribecontainer{
+    border-radius: 30px;
+    height: 40%;
+    border: 1px solid black;
+    max-width:800px;
+    margin:  auto;
+    background-color: azure;
+    margin-bottom: 40px;
+}
+#subscribe{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    text-align: center;
+}
+.textheading{
+    font-size: large;
+   
+}
+.textcontent{
+    font-size: larger;
+    line-height: 1.5rem;
+    font-weight: 900;
+}
+
+.form{
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+}
+.inputfield{
+    width: 100%;
+    line-height: 1.2rem;
+}
+.checkboxe{
+    padding: 10px;
+    color: blue;
+}
+.newletterbtn{
+    padding: 0 50px;
+    border-radius: 10px;
+}
+/*Social icons */
+.social-icons{
+    background-color:rgb(118, 118, 237) ;
+}
+.sociale{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+/*Footer Section */
+.footercontainer{
+    background-color:rgb(118, 118, 237) ;
+   
+}
+#footer{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+   
+}
+.footer-section{
+    
+    border: 1px solid black;
+    width: 400px;
+    line-height: 1.5rem;
+    background-color: azure;
+    border-radius: 30px;
+}
+.footer-heading{
+    font-size: larger;
+   font-weight: 600;
+   text-align: center;
+}
+
+.footerdetail2{
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+.footerdetail3{
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+.hr1{
+    background-color:rgb(118, 118, 237) ;
+
+}
+.hr2{
+    max-width: 800px;
+    margin: auto;
+}
+.copyright{
+    background-color:rgb(118, 118, 237) ;  
+    text-align: center;
+}
